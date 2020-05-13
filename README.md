@@ -17,3 +17,9 @@ Tesseract-OCR
 #### 程式中需注意內容
 - 設置tesseract.exe安裝路徑
 `pytesseract.pytesseract.tesseract_cmd =r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'`
+
+#### 透過pytesseract套件來實作功能
+- 辨識圖像中的文字並取出，寫入txt檔中
+
+#### 透過gTTS套件來實作功能
+- 將取出的文字轉為音檔,並存成MP3檔
